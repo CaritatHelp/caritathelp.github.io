@@ -16,6 +16,10 @@
 	.title {
 		font-family: 'Gloria Hallelujah';
 		text-align: center;
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
 	}
 	.sg-menu-link {
 		padding: .5em;
