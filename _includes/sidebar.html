@@ -1,0 +1,5 @@
+<h1 class="title">{{site.title}}</h1>
+{% assign entries = site.components %}
+{% for entry in entries %}
+  <a class="sg-menu-link" href="{{entry.url}}">{{ entry.title }}</a>
+{% endfor %}

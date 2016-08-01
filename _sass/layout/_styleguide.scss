@@ -1,3 +1,110 @@
+.sg-wrapper {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	width: 100vw;
+}
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+.sg-sidebar {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	width: 15rem;
+	max-width: 15rem;
+	.title {
+		font-family: 'Gloria Hallelujah';
+		text-align: center;
+	}
+	.sg-menu-link {
+		padding: .5em;
+		color: white;
+		text-decoration: none;
+		&:hover {
+			background-color: black;
+		}
+	}
+}
+
+.sg-content {
+	padding: 1em;
+	width: 100%;
+}
+// Palettes de couleurs
+.sg-palette {
+	border-top: 1px solid #777;
+	padding-top: .5em;
+	margin-bottom: 2em;
+	.sg-infos {
+		padding: .5em;
+		color: #3f5461;
+		margin-bottom: .25em;
+		max-width: 50vw;
+		background: #f7f7f7;
+		border: 1px solid #C6C6C6;
+	}
+}
+.sg-colors {
+	display: flex;
+	flex-wrap: nowrap;
+	.sg-single {
+		padding: 0 1em;
+    text-align: center;
+    pre {margin: 0;}
+	}
+	.color-block {
+		width: 8em;
+    height: 4em;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.dark {color: #fff;}
+    &.light {color: #000;}
+	}
+}
+
+//Cartes caritathelp
+	.sg-dark-container {
+		background-color: #222;
+		padding: 3em;
+		width: 40vw;
+		margin: 1rem 0;
+		display: flex;
+		flex-direction: row;
+	}
+	.sg-card {
+		display: flex;
+		flex-direction: column;
+		padding: 1em;
+		margin-bottom: 1em;
+		background-color: #fff;
+		border: 1px solid #D5E7CF;
+		border-radius: .25rem;
+		margin: 0 .5em 1em;
+		flex-grow: 1;
+	}
+	.card--title {
+		padding-bottom: .5em;
+		font-size: 1.2em;
+		font-weight: bold;
+		line-height: 1.2;
+	}
+	.no-padding {padding:0;}
+
+	.ch-card_header {
+		padding-bottom: .275em;
+		margin-bottom: .725em;
+		border-bottom: 1px solid #d4dbe0;
+	}
+	.ch-card_footer {
+	  padding-top: .275em;
+	  margin-top: .725em;
+	  border-top: 1px solid #d4dbe0;
+	}
+
+//Defaut
 .sg-component
 {
   margin: 2em 0;

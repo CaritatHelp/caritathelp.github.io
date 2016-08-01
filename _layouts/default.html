@@ -8,9 +8,16 @@
         <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon.ico and apple-touch-icon.png in root directory -->
-        <link rel="stylesheet" href="css/screen.css" media="screen">
+        <link rel="stylesheet" href="/css/screen.css" media="screen">
     </head>
     <body>
-        {{ content }}
+    	<div class="sg-wrapper">
+				<aside class="sg-sidebar">
+					{% include sidebar.html %}
+				</aside>
+				<main class="sg-content">
+					{{ content }}
+				</main>
+    	</div>
     </body>
 </html>

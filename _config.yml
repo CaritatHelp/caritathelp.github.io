@@ -1,16 +1,16 @@
 # Site settings
-title: Style guide template
+title: CaritatHelp Styleguide
 email: jerome.coupe@webstoemp.com
-description: Style guide boilerplate with Jekyll
+description: Style guide for CaritatHelp
 baseurl: ""
-url: "http://www.webstoemp.com/jekyllstyleguide" # the base hostname & protocol for your site
-twitter_username: jeromecoupe
-github_username:  jeromecoupe
+url: "http://caritathelp.github.io" # the base hostname & protocol for your site
+twitter_username: caritathelp
+github_username:  caritathelp
 
 # Collections
 collections:
   components:
-    output: false
+    output: true
 
 # Front Matter Defaults
 
